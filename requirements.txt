@@ -1,0 +1,14 @@
+# Python 3.13. Versions used for the reported results.
+numpy==2.2.3
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.16.2
+xgboost==3.2.0
+lightgbm==4.7.0
+catboost==1.2.10
+matplotlib==3.10.0
+seaborn==0.13.2
+psutil==7.2.2
+# Transformer-KAN runs used the CUDA 13.0 build:
+#   pip install torch==2.12.0 --index-url https://download.pytorch.org/whl/cu130
+torch==2.12.0

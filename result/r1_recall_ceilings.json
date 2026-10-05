@@ -1,0 +1,158 @@
+{
+  "groups_with_tied_maximum": {
+    "accuracy_optimal": 296,
+    "macro_recall_optimal": 0
+  },
+  "per_class": {
+    "Analysis": {
+      "conflict_rate_pct": 91.4327917282127,
+      "accuracy_optimal_recall_pct": [
+        8.567208271787297,
+        8.567208271787297
+      ],
+      "macro_recall_optimal_recall_pct": [
+        8.567208271787297,
+        8.567208271787297
+      ],
+      "ratio_range": [
+        1.0,
+        1.0
+      ]
+    },
+    "Backdoor": {
+      "conflict_rate_pct": 90.2229845626072,
+      "accuracy_optimal_recall_pct": [
+        9.777015437392796,
+        11.149228130360205
+      ],
+      "macro_recall_optimal_recall_pct": [
+        95.02572898799315,
+        95.02572898799315
+      ],
+      "ratio_range": [
+        8.523076923076923,
+        9.719298245614036
+      ]
+    },
+    "DoS": {
+      "conflict_rate_pct": 69.21007581315725,
+      "accuracy_optimal_recall_pct": [
+        82.29395940327709,
+        83.83467840547812
+      ],
+      "macro_recall_optimal_recall_pct": [
+        85.84005869405723,
+        85.84005869405723
+      ],
+      "ratio_range": [
+        1.0239206534422405,
+        1.0430906389301635
+      ]
+    },
+    "Exploits": {
+      "conflict_rate_pct": 28.65612648221344,
+      "accuracy_optimal_recall_pct": [
+        74.83830398850162,
+        83.94717930291053
+      ],
+      "macro_recall_optimal_recall_pct": [
+        72.05353934602947,
+        72.05353934602947
+      ],
+      "ratio_range": [
+        0.8583199571963617,
+        0.9627895810827031
+      ]
+    },
+    "Fuzzers": {
+      "conflict_rate_pct": 20.735730781920157,
+      "accuracy_optimal_recall_pct": [
+        79.39623886506104,
+        95.23259650280436
+      ],
+      "macro_recall_optimal_recall_pct": [
+        79.54470471791488,
+        79.54470471791488
+      ],
+      "ratio_range": [
+        0.8352676251515677,
+        1.0018699355911076
+      ]
+    },
+    "Generic": {
+      "conflict_rate_pct": 0.16427322346457526,
+      "accuracy_optimal_recall_pct": [
+        99.83572677653542,
+        99.8569233214986
+      ],
+      "macro_recall_optimal_recall_pct": [
+        99.83572677653542,
+        99.83572677653542
+      ],
+      "ratio_range": [
+        0.9997877308427087,
+        1.0
+      ]
+    },
+    "Normal": {
+      "conflict_rate_pct": 0.021621621621621623,
+      "accuracy_optimal_recall_pct": [
+        99.98648648648648,
+        100.0
+      ],
+      "macro_recall_optimal_recall_pct": [
+        99.97837837837838,
+        99.97837837837838
+      ],
+      "ratio_range": [
+        0.9997837837837837,
+        0.9999189079605352
+      ]
+    },
+    "Reconnaissance": {
+      "conflict_rate_pct": 9.897025171624714,
+      "accuracy_optimal_recall_pct": [
+        90.21739130434783,
+        90.90389016018307
+      ],
+      "macro_recall_optimal_recall_pct": [
+        90.8466819221968,
+        90.8466819221968
+      ],
+      "ratio_range": [
+        0.9993706733794839,
+        1.0069752694990488
+      ]
+    },
+    "Shellcode": {
+      "conflict_rate_pct": 0.26455026455026454,
+      "accuracy_optimal_recall_pct": [
+        99.73544973544973,
+        100.0
+      ],
+      "macro_recall_optimal_recall_pct": [
+        100.0,
+        100.0
+      ],
+      "ratio_range": [
+        1.0,
+        1.0026525198938991
+      ]
+    },
+    "Worms": {
+      "conflict_rate_pct": 2.272727272727273,
+      "accuracy_optimal_recall_pct": [
+        97.72727272727273,
+        100.0
+      ],
+      "macro_recall_optimal_recall_pct": [
+        100.0,
+        100.0
+      ],
+      "ratio_range": [
+        1.0,
+        1.0232558139534884
+      ]
+    }
+  }
+}

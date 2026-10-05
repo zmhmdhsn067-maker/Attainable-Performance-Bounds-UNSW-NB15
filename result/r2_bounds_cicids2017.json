@@ -1,0 +1,167 @@
+{
+  "corpus": "CICIDS2017 (MachineLearningCVE, 78 features), local train/test split of unknown provenance",
+  "train_rows": 1981527,
+  "test_rows": 849216,
+  "classes": [
+    "BENIGN",
+    "Bot",
+    "DDoS",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "DoS Slowhttptest",
+    "DoS slowloris",
+    "FTP-Patator",
+    "Heartbleed",
+    "Infiltration",
+    "PortScan",
+    "SSH-Patator",
+    "Web Attack � Brute Force",
+    "Web Attack � Sql Injection",
+    "Web Attack � XSS"
+  ],
+  "distinct_vectors_exact": 787536,
+  "conflicted_groups": 124,
+  "bound_A_accuracy": 0.9998504502976864,
+  "bound_D_macro_recall": 0.9999873887164206,
+  "mean_of_per_class_F1_ceilings": 0.9999133606614737,
+  "per_class": {
+    "BENIGN": {
+      "N": 681929,
+      "conflict_rate": 0.0001891692536906335,
+      "recall_A": 0.9999369435821032,
+      "recall_D": 0.9998108307463094,
+      "f1_ceiling": 0.9999068846006925
+    },
+    "Bot": {
+      "N": 589,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "DDoS": {
+      "N": 38408,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "DoS GoldenEye": {
+      "N": 3087,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "DoS Hulk": {
+      "N": 69321,
+      "conflict_rate": 0.0037506671859898156,
+      "recall_A": 0.9998268922837236,
+      "recall_D": 1.0,
+      "f1_ceiling": 0.9997259799821165
+    },
+    "DoS Slowhttptest": {
+      "N": 1649,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "DoS slowloris": {
+      "N": 1738,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "FTP-Patator": {
+      "N": 2381,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "Heartbleed": {
+      "N": 3,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "Infiltration": {
+      "N": 10,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "PortScan": {
+      "N": 47679,
+      "conflict_rate": 0.0024329369324021057,
+      "recall_A": 0.9984899012143711,
+      "recall_D": 1.0,
+      "f1_ceiling": 0.9990675453392982
+    },
+    "SSH-Patator": {
+      "N": 1769,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "Web Attack � Brute Force": {
+      "N": 452,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "Web Attack � Sql Injection": {
+      "N": 6,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    },
+    "Web Attack � XSS": {
+      "N": 195,
+      "conflict_rate": 0.0,
+      "recall_A": 1.0,
+      "recall_D": 1.0,
+      "f1_ceiling": 1.0
+    }
+  },
+  "lookup": {
+    "coverage": 0.12925804506745045,
+    "accuracy_overall_with_fallback": 0.8566701522345316,
+    "accuracy_on_covered_rows": 0.9973307339115225
+  },
+  "joint_macro_f1": {
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "solve_seconds": 0.06798195838928223,
+    "macro_f1_incumbent": 0.9999132640990449,
+    "macro_f1_dual_upper_bound": 0.9999133611615976,
+    "mip_gap": 9.707097208915128e-08,
+    "per_class_f1_at_joint_optimum": {
+      "BENIGN": 0.9999068846006925,
+      "Bot": 1.0,
+      "DDoS": 1.0,
+      "DoS GoldenEye": 1.0,
+      "DoS Hulk": 0.9997259404569582,
+      "DoS Slowhttptest": 1.0,
+      "DoS slowloris": 1.0,
+      "FTP-Patator": 1.0,
+      "Heartbleed": 1.0,
+      "Infiltration": 1.0,
+      "PortScan": 0.9990661364280243,
+      "SSH-Patator": 1.0,
+      "Web Attack � Brute Force": 1.0,
+      "Web Attack � Sql Injection": 1.0,
+      "Web Attack � XSS": 1.0
+    },
+    "conflicted_groups": 124,
+    "groups_assigned_to_a_class_absent_from_the_group": 0,
+    "coordinate_ascent_check_from_majority": 0.9999133599149492
+  },
+  "seconds": 66.42430877685547
+}

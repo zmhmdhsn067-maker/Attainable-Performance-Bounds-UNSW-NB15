@@ -1,0 +1,13 @@
+# datasets are not redistributed
+data/*.csv
+*.csv
+# run-time artefacts
+revision/rerun/ckpt/
+revision/rerun/locks/
+revision/rerun/logs/
+revision/rerun/out_smoke/
+revision/rerun/ckpt_smoke/
+results/
+__pycache__/
+*.pyc
+*.log

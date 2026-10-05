@@ -1,0 +1,39 @@
+{
+  "hypothesis_class": "piecewise constant on XGBoost max_bin=256 quantile cells (seed-42 training split)",
+  "booster_best_iteration": 172,
+  "booster_split_thresholds": 195061,
+  "thresholds_not_in_cut_set": 0,
+  "cuts_per_feature_median": 53.0,
+  "distinct_test_cells": 53631,
+  "conflicted_cells": 589,
+  "bound_A_accuracy": 0.9358451149006461,
+  "bound_D_macro_recall": 0.8315942260295358,
+  "mean_of_per_class_F1_ceilings": 0.7871493352964996,
+  "per_class_f1_ceiling": {
+    "Analysis": 0.26227873348292197,
+    "Backdoor": 0.27060575968222444,
+    "DoS": 0.6792267687174959,
+    "Exploits": 0.8440681382925108,
+    "Fuzzers": 0.8848306873451408,
+    "Generic": 0.9990191140213674,
+    "Normal": 0.9998378597486826,
+    "Reconnaissance": 0.9481392915857122,
+    "Shellcode": 0.9947229551451188,
+    "Worms": 0.9887640449438202
+  },
+  "per_class_conflict_rate": {
+    "Analysis": 0.914327917282127,
+    "Backdoor": 0.902229845626072,
+    "DoS": 0.6928344338469064,
+    "Exploits": 0.2873697448796263,
+    "Fuzzers": 0.20768723193665456,
+    "Generic": 0.0020666631339091726,
+    "Normal": 0.0003783783783783784,
+    "Reconnaissance": 0.09925629290617849,
+    "Shellcode": 0.010582010582010581,
+    "Worms": 0.022727272727272728
+  },
+  "joint_macro_f1": {
+    "see": "results/r1_joint_bound_exact.json, entry H_xgb_quantile_cells_256"
+  }
+}

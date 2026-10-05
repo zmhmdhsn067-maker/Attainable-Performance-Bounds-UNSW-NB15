@@ -1,0 +1,12 @@
+{
+  "exact": {
+    "groups": 53946,
+    "conflicted_groups": 575,
+    "bound_A_accuracy": 0.9360151581402127,
+    "bound_D_macro_recall": 0.8316920270948926,
+    "joint_macro_f1_lower": 0.7848669617822128,
+    "joint_macro_f1_upper": 0.7848669715963283,
+    "joint_exact": true,
+    "seconds": 125.62519121170044
+  }
+}
